@@ -28,15 +28,10 @@
 		</div>
 
 		<ol>
-   	{{#each projects}}
-      	<div class="project" id="{{id}}">
-        	<a href="project/{{name}}" class="thumbnail">
-          		<img src="images/{{image}}" ... />
-         		 <p>{{name}}</p>
-        	</a>
-      	</div>
-    {{/each}}
-
+            {{#each projects}}
+                <li><a href="#project{{id}}">{{name}}</a></li>
+            {{/each}}
+        </ol>
 
 
 		<h4>Projects</h4>
